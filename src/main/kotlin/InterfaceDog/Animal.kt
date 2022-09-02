@@ -1,0 +1,4 @@
+package InterfaceDog
+
+interface Animal {
+}

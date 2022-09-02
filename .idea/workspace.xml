@@ -4,24 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ec31fba-5541-4ce9-a443-0fc103335702" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercises/calculator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercises/lemonCafe2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercises/lemonCafeteria.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercises/pattern1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercises/whenEx.kt" afterDir="false" />
+    <list default="true" id="0ec31fba-5541-4ce9-a443-0fc103335702" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DogClass/Dog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DogClass/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercises/pattern2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercises/pattern3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/InterfaceDog/Animal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/InterfaceDog/Dog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/InterfaceDog/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/StudentInfoSystem/Student.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/StudentInfoSystem/Subject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/StudentInfoSystem/Teacher.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/StudentInfoSystem/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/practiceGame/BestScore.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/practiceGame/NumbersStats.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/practiceGame/User.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/practiceGame/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Exercises/lemonCafe2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Exercises/lemonCafe2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -53,43 +54,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Kotlin.Pattern1Kt">
-    <configuration name="CalculatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.CalculatorKt" />
+}]]></component>
+  <component name="RunManager" selected="Kotlin.MainKt (2)">
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DogClass.MainKt" />
       <module name="Coursera_Programming_Fundamentals_in_Kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LemonCafe2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.LemonCafe2Kt" />
+    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceGame.MainKt" />
       <module name="Coursera_Programming_Fundamentals_in_Kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LemonCafeteriaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.LemonCafeteriaKt" />
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StudentInfoSystem.MainKt" />
       <module name="Coursera_Programming_Fundamentals_in_Kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.Pattern1Kt" />
+    <configuration name="Pattern2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.Pattern2Kt" />
       <module name="Coursera_Programming_Fundamentals_in_Kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenExKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.WhenExKt" />
+    <configuration name="Pattern3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.Pattern3Kt" />
       <module name="Coursera_Programming_Fundamentals_in_Kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Pattern1Kt" />
-        <item itemvalue="Kotlin.LemonCafe2Kt" />
-        <item itemvalue="Kotlin.LemonCafeteriaKt" />
-        <item itemvalue="Kotlin.WhenExKt" />
-        <item itemvalue="Kotlin.CalculatorKt" />
+        <item itemvalue="Kotlin.MainKt (2)" />
+        <item itemvalue="Kotlin.MainKt (1)" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.Pattern3Kt" />
+        <item itemvalue="Kotlin.Pattern2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +116,21 @@
       <option name="presentableId" value="Default" />
       <updated>1661935692505</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1662036487760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662036487760</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1662036510570</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662036510570</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,5 +143,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
